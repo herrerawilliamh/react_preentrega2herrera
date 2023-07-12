@@ -145,6 +145,11 @@
     font-weight: 600;
 }
 
+.item-cantidad{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .item-count {
     display: flex;
     align-items: center;
