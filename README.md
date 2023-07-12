@@ -1,4 +1,6 @@
 # Gift funcionamiento de la aplicación
+![funcionamiento](https://github.com/herrerawilliamh/react_preentrega2herrera/assets/82005431/cde54016-1a7c-4cf6-bf31-eb131ecc4956)
+
 
 # Getting Started with Create React App
 
