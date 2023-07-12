@@ -1,19 +1,20 @@
 import React from 'react'
 import CartWidget from './CartWidget'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <nav className="navbarE">
-        <a href='#' className="logoE"><h1>WillyCommerce</h1></a>
+        <Link to='/' className="logoE"><h1>WillyCommerce</h1></Link>
         <ul className='menu-itemsE'>
-            <li><a href="#" className='menu-linkE'>Inicio</a></li>
-            {/* <li><a href="#" className='menu-linkE'>Nosotros</a></li> */}
-            <li><a href="#" className='menu-linkE'>Productos</a></li>
-            <li><a href="#" className='menu-linkE'>Pantalones</a></li>
-            <li><a href="#" className='menu-linkE'>Medias</a></li>
-            <li><a href="#" className='menu-linkE'>Buzos</a></li>
-            <li><a href="#" className='menu-linkE'>Remeras</a></li>
-            {/* <li><a href="#" className='menu-linkE'>Contacto</a></li> */}
+            <li><Link to="/" className='menu-linkE'>Inicio</Link></li>
+            <li><Link to="/nosotros" className='menu-linkE'>Nosotros</Link></li>
+            <li><Link to="/productos" className='menu-linkE'>Productos</Link></li>
+            <li><Link to="/productos/pantalones" className='menu-linkE'>Pantalones</Link></li>
+            <li><Link to="/productos/medias" className='menu-linkE'>Medias</Link></li>
+            <li><Link to="/productos/buzos" className='menu-linkE'>Buzos</Link></li>
+            <li><Link to="/productos/remeras" className='menu-linkE'>Remeras</Link></li>
+            <li><Link to="/contacto" className='menu-linkE'>Contacto</Link></li>
             <li><CartWidget/></li>
         </ul>
     </nav>
